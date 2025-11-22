@@ -23,7 +23,7 @@ Gestor_de_eventos_cientificos/
 
 ## Requisitos previos
 
-1. Python 3.11+ (ideal igual a la versión del entorno `env`).
+1. Python 3.11+ 
 2. Entorno virtual activado (recomendado).
 3. Dependencias estándar incluidas en la biblioteca estándar de Python (no se requiere instalar paquetes adicionales).
 
@@ -62,9 +62,3 @@ Las pruebas cubren la lógica de encapsulamiento, validaciones y herencia de los
 ## Resultados esperados
 
 Tras ejecutar `run_demo.py` deberías ver un resumen en consola y los archivos actualizados en la carpeta `datos/`. Las pruebas unitarias deben finalizar con estado `OK`.
-
-## Próximos pasos sugeridos
-
-1. Extender las pruebas hacia los módulos de almacenamiento y procesamiento.
-2. Agregar una interfaz (CLI o web) para registrar nuevos eventos desde el usuario final.
-3. Parametrizar la API para admitir otras fuentes de datos (por ejemplo, geolocalización).
