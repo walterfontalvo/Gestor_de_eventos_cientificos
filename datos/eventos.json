@@ -1,0 +1,35 @@
+[
+  {
+    "tipo": "Conferencia",
+    "titulo": "Ciencia de Datos en Salud",
+    "fecha": "2025-04-15T09:00:00",
+    "ciudad": {
+      "nombre": "Bogota",
+      "pais": "Colombia",
+      "latitud": 4.711,
+      "longitud": -74.072,
+      "descripcion": "Capital y nodo científico de Colombia"
+    },
+    "capacidad_maxima": 350,
+    "asistentes_registrados": 320,
+    "categoria": "conferencia",
+    "tematica": "Salud digital",
+    "ponentes": ["Dra. Ruiz", "Dr. Romero"],
+    "modalidad": "híbrido"
+  },
+  {
+    "tipo": "Evento",
+    "titulo": "Taller de Robótica Educativa",
+    "fecha": "2025-05-20T14:00:00",
+    "ciudad": {
+      "nombre": "Medellin",
+      "pais": "Colombia",
+      "latitud": 6.2442,
+      "longitud": -75.5812,
+      "descripcion": "Ciudad de la eterna primavera"
+    },
+    "capacidad_maxima": 120,
+    "asistentes_registrados": 95,
+    "categoria": "taller"
+  }
+]
