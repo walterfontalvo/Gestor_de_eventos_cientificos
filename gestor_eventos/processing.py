@@ -28,12 +28,12 @@ def resumen_asistentes(eventos: Iterable[Evento]) -> dict:
     eventos_lista = list(eventos)
     total_eventos = len(eventos_lista)
     total_asistentes = reduce(
-        lambda acc, e: acc + e.asistentes_registrados,
+        lambda acc, valor: acc + valor,
         map(lambda e: e.asistentes_registrados, eventos_lista),
         0,
     )
     capacidad_total = reduce(
-        lambda acc, e: acc + e.capacidad_maxima,
+        lambda acc, valor: acc + valor,
         map(lambda e: e.capacidad_maxima, eventos_lista),
         0,
     )
